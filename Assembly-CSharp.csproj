@@ -71,6 +71,26 @@
     <Compile Include="Assets\BlueRaja\GenericPriorityQueue.cs" />
     <Compile Include="Assets\TinyKeepAlgorithm\Graphs.cs" />
     <Compile Include="Assets\BlueRaja\SimplePriorityQueue.cs" />
+    <Compile Include="Assets\_Scripts\TilemapVisualizer.cs" />
+    <Compile Include="Assets\_Scripts\CorridorFirstDungeonGenerator.cs" />
+    <Compile Include="Assets\_Scripts\WallGenerator.cs" />
+    <Compile Include="Assets\_Scripts\ProceduralGenerationAlgorithms.cs" />
+    <Compile Include="Assets\_Scripts\Data\SimpleRandomWalkSO.cs" />
+    <Compile Include="Assets\_Scripts\RoomFirstDungeonGenerator.cs" />
+    <Compile Include="Assets\_Scripts\AbstractDungeonGenerator.cs" />
+    <Compile Include="Assets\_Scripts\WallTypesHelper.cs" />
+    <Compile Include="Assets\_Scripts\SimpleRandomWalkDungeonGenerator.cs" />
+    <Compile Include="Assets\BinarySpacePartitionAlgorithm\BinarySpacePartitioner.cs" />
+    <Compile Include="Assets\BinarySpacePartitionAlgorithm\CorridorNode.cs" />
+    <Compile Include="Assets\BinarySpacePartitionAlgorithm\CorridorsGenerator.cs" />
+    <Compile Include="Assets\BinarySpacePartitionAlgorithm\DugeonGenerator.cs" />
+    <Compile Include="Assets\BinarySpacePartitionAlgorithm\DungeonCreator.cs" />
+    <Compile Include="Assets\BinarySpacePartitionAlgorithm\Line.cs" />
+    <Compile Include="Assets\BinarySpacePartitionAlgorithm\Node.cs" />
+    <Compile Include="Assets\BinarySpacePartitionAlgorithm\RoomGenerator.cs" />
+    <Compile Include="Assets\BinarySpacePartitionAlgorithm\RoomNode.cs" />
+    <Compile Include="Assets\BinarySpacePartitionAlgorithm\StructureHelper.cs" />
+    <Compile Include="Assets\RandomWalkingAlgorithm\RWGeneration.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BlueRaja\LICENSE.txt" />
